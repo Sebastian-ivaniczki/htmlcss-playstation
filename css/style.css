@@ -9,6 +9,10 @@
     min-height: 100px;
 }
 
+[class*='row']{
+    border: 1px dashed violet;
+    min-height: 100px;
+}
 /* header */
 
 body{
@@ -51,4 +55,8 @@ header{
 #new-arivals{
     background-color: #1F1F1F;
     color: #fff;
+}
+
+#playstation-plus{
+    background-color: #BEBCBB;
 }
