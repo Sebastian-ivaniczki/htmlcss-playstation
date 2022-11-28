@@ -57,6 +57,20 @@ header{
     color: #fff;
 }
 
+/* playstation plus */
 #playstation-plus{
     background-color: #BEBCBB;
+}
+
+/* playstation now */
+
+#playstation-now{
+    background-color: #161C3B;
+    color: #fff;
+}
+
+/* footer */
+footer{
+    background-color: #00439C;
+    color: #fff;
 }
