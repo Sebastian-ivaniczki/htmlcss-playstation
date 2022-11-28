@@ -1,0 +1,41 @@
+
+/* utilities */
+
+/* to remove */
+
+[class*='col']{
+    border: 1px dashed red;
+    min-height: 100px;
+}
+
+/* header */
+
+body{
+    margin-top: 120px;
+}
+
+header{
+    height: 120px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header-top{
+    height: 40px;
+    background-color: #000;
+}
+
+.header-bottom{
+    height: 80px;
+}
+/* jumbotron */
+
+.jumbotron{
+    height: 500px;
+    background-image: url(../img/jumbo-bg.png) ;
+    background-position: center;
+    background-size: cover;
+}
