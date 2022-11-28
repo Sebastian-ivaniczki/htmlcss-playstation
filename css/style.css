@@ -35,7 +35,7 @@ header{
 /* jumbotron and baner */
 
 .jumbotron{
-    height: 500px;
+    height: 570px;
     background-image: url(../img/jumbo-bg.png) ;
     background-position: center;
     background-size: cover;
