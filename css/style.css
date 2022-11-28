@@ -1,6 +1,10 @@
 
 /* utilities */
 
+section{
+    margin-top: 30px;
+    
+}
 /* to remove */
 
 [class*='col']{
