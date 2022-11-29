@@ -13,17 +13,7 @@ body{
 img{
     display: block;
 }
-/* to remove */
 
-[class*='col']{
-    border: 1px dashed red;
-    
-}
-
-[class*='row']{
-    border: 1px dashed violet;
-    
-}
 /* header */
 
 
@@ -59,15 +49,20 @@ header{
 /* jumbotron and baner */
 
 .jumbotron{
-    height: 570px;
-    background-image: url(../img/jumbo-bg.png) ;
+    
     background-position: center;
     background-size: cover;
     color: #fff;
 }
 
-.baner{
+#main-jumotron{
+    background-image: url(../img/jumbo-bg.png) ;
+    height: 570px;
+}
+
+#baner{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    min-height: 570px;
 }
 
 /* main sections */
@@ -77,11 +72,20 @@ header{
     color: #fff;
 }
 
+/* explore playstation */
+
+.fa-registered{
+    font-size: 10px;
+}
+
 /* playstation plus */
 #playstation-plus{
     background-color: #BEBCBB;
 }
 
+.img-playstation-plus{
+    width: 60%;
+}
 /* playstation now */
 
 #playstation-now{
@@ -89,11 +93,8 @@ header{
     color: #fff;
 }
 
-/* playstation plus */
 
-.img-playstation-plus{
-    width: 60%;
-}
+
 
 .img-playstation-plus-monthli{
     width: 70%;
