@@ -6,6 +6,9 @@ body{
     font-family: sans-serif;
 }
 
+.bg-gray{
+    background-color: #D9DADC;
+}
 /* to remove */
 
 [class*='col']{
@@ -35,6 +38,16 @@ header{
     background-color: #000;
 }
 
+.logo-container{
+    height: 35px;
+    width: 120px;
+
+
+}
+
+.logo-container > img{
+    margin-top: 8px;
+}
 
 .header-bottom{
     height: 80px;
@@ -70,6 +83,16 @@ header{
 #playstation-now{
     background-color: #161C3B;
     color: #fff;
+}
+
+/* playstation plus */
+
+.img-playstation-plus{
+    width: 60%;
+}
+
+.img-playstation-plus-monthli{
+    width: 70%;
 }
 
 /* footer */
