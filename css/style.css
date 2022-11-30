@@ -110,3 +110,13 @@ footer a{
     text-decoration: none;
     color: currentColor;
 }
+
+
+.btn:hover{
+    box-shadow: 0 0 1px 2px white inset;
+    border: 3px solid inherit;
+    color: inherit;
+}
+.btn{
+    border: 3px solid transparent;
+}
